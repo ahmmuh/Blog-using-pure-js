@@ -1,0 +1,10 @@
+.jumbotron {
+  background-color: rgb(7, 149, 192);
+}
+.list-group .list-group-item {
+  cursor: pointer;
+}
+
+.toggleList {
+  color: red;
+}

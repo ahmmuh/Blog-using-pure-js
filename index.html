@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h2 style="color: white;" class="lead">
+          Hämta data från Fake API
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <h4>Användare</h4>
+          <ul class="list-group"></ul>
+        </div>
+        <div class="col-4" id="posts">
+          <h2 class="title"></h2>
+          <p class="description"></p>
+        </div>
+        <div class="col-3">
+          <h2>Tid</h2>
+          <strong class="time"></strong>
+        </div>
+      </div>
+      <footer class="bg bg-primary" style="height: 30vh;">
+        <a style="color: white; float: right; padding: 10px;" href="#"
+          >Skapat av Ahmed &copy; 2020</a
+        >
+      </footer>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
